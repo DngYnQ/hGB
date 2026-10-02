@@ -1,0 +1,11 @@
+local_host: "127.0.0.1"
+local_port: 1080
+
+remote_host: "127.0.0.1"
+remote_port: 25565
+fake_server_address: "mc.example.net"
+protocol_version: 765
+
+# It must match tunnel_secret_hex on the server.
+tunnel_secret_hex: "8ff542472a7c37426d9a36964bc13867f50be9ab84077660fa0ceccc2c60419c"
+token: "11111111-2222-3333-4444-555555555555"

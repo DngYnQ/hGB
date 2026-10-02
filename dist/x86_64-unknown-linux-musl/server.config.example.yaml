@@ -1,0 +1,32 @@
+listen_host: "0.0.0.0"
+listen_port: 25565
+
+# Generate new: openssl rand -hex 32
+tunnel_secret_hex: "8ff542472a7c37426d9a36964bc13867f50be9ab84077660fa0ceccc2c60419c"
+
+protocol_version: 765
+version_name: "1.20.4"
+
+motd: "Example server motd"
+max_players_display: 67
+
+fake_names:
+  - List
+  - of
+  - real
+  - nicknames
+
+fake_online:
+  baseline: 2
+  bounds: [0, 6]
+  walk_interval_secs: [120, 400]
+
+disconnect_message: "§fYou are not whitelisted on this server!"
+
+clients:
+  - uuid: "11111111-2222-3333-4444-555555555555"
+    note: "first-client-1"
+    enabled: true
+  - uuid: "22222222-3333-4444-5555-666666666666"
+    note: "second-client"
+    enabled: false # disabled

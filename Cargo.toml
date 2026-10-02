@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = [
+    "hGB-proto",
+    "hGB-server",
+    "hGB-client",
+]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+
+[profile.release]
+lto = true
+strip = true
